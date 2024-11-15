@@ -26,5 +26,9 @@ def listen_and_transcribe():
 
         except sr.UnknownValueError:
             print("متاسفم، متوجه نشدم.")
+            
+
+if __name__ == "__main__":
+    listen_and_transcribe()            
            
         
